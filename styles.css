@@ -63,8 +63,7 @@ select {
   padding-right: 38px;
   -webkit-appearance: none;
   -moz-appearance: none;
-  transition: color 0.3s ease, background-color 0.3s ease,
-    border-bottom-color 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease;
 }
 
 .select-icon {
