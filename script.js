@@ -6,4 +6,13 @@ const month = date.getMonth() + 1;
 const year = date.getFullYear();
 const hours = date.getHours();
 const minutes = date.getMinutes();
-const formattedDate = ``;
+const formattedDate = `${day}-${month}-${year}`;
+currentDateParagraph.textContent = formattedDate;
+
+
+dateOptionsSelectElement.addEventListener("change", () => {
+    switch (dateOptionsSelectElement.value) {
+        case "yyyy-mm-dd" :
+            currentDateParagraph.textContent = formattedDate;
+    }
+});
